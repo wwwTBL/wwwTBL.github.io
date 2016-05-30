@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Apple</title>
+<link rel="stylesheet" type="text/css" href=".\applestyle.css">
+</head>
+<body>
+<!--inizio navbar!-->
+<ul>
+  <li><a class="active" href="..\index.html">Home</a></li>
+  <li class="dropdown">
+    <a href=".\apple.html" class="dropbtn">Apple</a>
+    <div class="dropdown-content">
+      <a href=".\iPhone SE\iPhoneSE.html">iPhone SE</a>
+      <a href=".\iPhone 6s\iPhone 6s.html">iPhone 6S</a>
+      <a href=".\iPhone 6s Plus\iPhone 6S Plus.html">iPhone 6S Plus</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="..\samsung\samsung.html" class="dropbtn">Samsung</a>
+    <div class="dropdown-content">
+      <a href="..\samsung\S6 Edge+\S6 Edge +.html">S6 Edge+</a>
+      <a href="..\samsung\S7\S7.html">S7</a>
+      <a href="..\samsung\S7 Edge\S7 Edge.html">S7 Edge</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="..\lg\LG.html" class="dropbtn">LG</a>
+    <div class="dropdown-content">
+      <a href="..\lg\G5\G5.html">G5</a>
+      <a href="..\lg\V10\V10.html">V10</a>
+      <a href="..\lg\G4\G4.html">G4</a>
+    </div>
+  </li>
+  </li>
+</ul>
+<!--fine navbar!-->
+<!--inizio slideshow!-->
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+	<a href=".\iPhone SE\iPhoneSE.html">
+    <img src=".\iPhone SE\iPhone SE.jpg" style="width:100%">
+	</a>
+    <div class="text">iPhone SE</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+	<a href=".\iPhone 6s\iPhone 6S.html">
+    <img src=".\iPhone 6s\iPhone 6s.jpg" style="width:100%">
+	</a>
+    <div class="text">iPhone 6S</div>
+  </div>
+   
+   <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+	<a href=".\iPhone 6s Plus\iPhone 6S Plus.html">
+    <img src=".\iPhone 6s Plus\iPhone 6s Plus.jpg" style="width:100%">
+	</a>
+    <div class="text">iPhone 6S Plus</div>
+  </div>
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<!--fine slideshow!-->
+<script src="..\slideshowscript.js"></script>
+</body>
+</html>
